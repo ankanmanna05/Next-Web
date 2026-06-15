@@ -1,0 +1,75 @@
+@media (max-width: 767px){
+    .banner .hero-text h1{
+        font-size: 35px;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .banner img{
+        width: 80%;
+        display: block;
+        margin: 20px auto 0 auto;
+    }
+
+    .stat-item{
+        border-bottom: 1px solid #E4E3E3;
+    }
+
+    .service .card{
+        margin-top: 20px;
+    }
+
+    .service-price .flex-card{
+        margin: 0 auto 50px auto;
+        width: 90%;
+    }
+
+    .strategy .right-grid{
+        margin-top: 30px;
+    }
+
+    .strategy .btn-about-us{
+        margin-top: 20px;
+    }
+
+    .contact{
+        text-align: center;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer img{
+        width: 180px;
+    }
+
+    .footer-links{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .footer-icons{
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .service .card{
+        margin-top: 30px;
+    }
+.strategy .btn-about-us{
+        margin-bottom: 50px;
+    }
+
+    .service-price .flex-card{
+        margin: 0 auto 50px auto;
+        width: 90%;
+    }
+
+   .footer-grid .footer-links:nth-child(2),
+   .footer-grid .footer-links:nth-child(4) {
+    margin-top: 20px;
+    padding-left: 50px;
+   }
