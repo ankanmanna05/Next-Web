@@ -505,7 +505,9 @@ header .btn.btn-primary:hover {
     overflow: hidden;
     transition: all 0.2s linear;
 }
-
+.about-us  .card{
+    border-radius: 30px;
+}
 .about-us .card:hover{
     transform: scale(1.05);
 }
