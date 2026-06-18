@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXTWEB</title>
+
+    <link rel="icon" type="image/x-icon" href="./IMAGES/favicon.svg">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script>
+        window.addEventListener("load", function () {
+            const modal = new bootstrap.Modal(
+                document.getElementById("myModal")
+            );
+            modal.show();
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true" >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Message Sent Successfully</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Thank you for contacting NEXTWEB.</p>
+                    <p>We will get back to you as soon as possible.</p>
+                </div>
+
+                <div class="modal-footer">
+                    <a href="./contact_us.html" class="btn btn-primary">BACK</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <!-- Auto Open Modal -->
+  
+
+</body>
+</html>
