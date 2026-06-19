@@ -669,6 +669,11 @@ header .btn.btn-primary:hover {
     min-width: 0;
 }
 
+.btn-messege:hover{
+    background:transparent;
+    border: 1px solid #47DDFF;
+}
+
 .contact-form input,
 .contact-form select,
 .contact-form textarea{
